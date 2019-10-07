@@ -10,7 +10,7 @@ a {
 a:hover { color: olive; }
 
 header, nav, main, footer {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -22,6 +22,7 @@ header {
 	min-height: 100px;
 	margin-top: 60px;
 	font-size: 32px;
+	text-align: center;
 }
 
 header h1 {
@@ -32,12 +33,15 @@ header h1 {
 
 /* Nav styles */
 nav { background-color: lavender; 
-	font-family: 'PT Mono', monospace;}
+	font-family: 'PT Mono', monospace;
+	padding-top: 40px 
+	padding-bottom: 20px;
+	padding-right: 40px;}
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
+nav li { padding: 15px; }
 nav a { color: solid-black; }
 nav a:hover { color: olive; }
 
@@ -48,6 +52,8 @@ main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
+	padding-left: 60px;
+	padding-right:60px;
 }
 
 section {
